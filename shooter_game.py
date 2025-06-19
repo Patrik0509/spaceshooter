@@ -3,7 +3,7 @@ from random import randint,random
  
 score = 0 
 lost = 0 
-life = 3
+life = 4
 color = (86,222,55)
 #класс-родитель для спрайтов
 class GameSprite(sprite.Sprite):
@@ -31,7 +31,7 @@ class Player(GameSprite):
             self.rect.x -= self.speed
         if keys[K_d] and self.rect.x < win_width - 40:
             self.rect.x += self.speed
-
+            print('')
 
     def fire(self):
         bullet = Bullet('bullet.png', self.rect.centerx - 10, self.rect.top, 16, 32, 10)
