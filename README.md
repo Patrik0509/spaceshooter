@@ -16,7 +16,7 @@ _Python v. 3.9.13._:
 #### 1. Этапы разработки 
  1. Mind-map проекта
  
-![mind-map](./mind-map.png "mind-map")
+![mind-map](./galaxy.jpg "mind-map")
 
  2. Check-list
  
